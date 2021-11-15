@@ -1,0 +1,59 @@
+.cards
+    height: 25vw
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        height: 35vw
+    @media (max-width: $mobilel)
+        height: 250vw
+
+.cardsrow
+    width: 75%
+    height: 70%
+    display: flex
+    justify-content: space-between
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        width: 90%
+    @media (max-width: $mobilel)
+        width: 75%
+        height: 90%
+        flex-direction: column
+
+.card
+    width: 22%
+    background-color: #e2e0e0
+    border-radius: 3%
+    text-align: center
+    font-size: 60%
+    display: flex
+    flex-direction: column
+    align-items: center
+    h3
+        margin-bottom: 2%
+    h4
+        margin-top: 0%
+        color: $flatiblue
+    p
+        margin-top: 0%
+        width: 80%
+    @media (max-width: $mobilel)
+        width: 100%
+        height: 22%
+        font-size: 70%
+
+.icone
+    width: 20%
+    height: 18%
+    background-color: white
+    border-radius: 50%
+    margin-top: 7%
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 200%
+    color: $flatiblue
+    @media (max-width: $mobilel)
+        height: 25%
+        width: 20%
