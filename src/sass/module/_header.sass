@@ -1,0 +1,52 @@
+.head
+    width: 100%
+    height: 5vw
+    background-color: #363b47
+    display: flex
+    @media (max-width: $mobilel)
+        flex-direction: column
+        align-items: center
+        height: 20vw
+
+.flati
+    width: 45%
+    color: white
+    font-size: 150%
+    display: flex
+    justify-content: center
+    align-items: center
+    @media (max-width: $mobilel)
+        width: 100%
+        height: 60%
+
+.navbar
+    width: 45%
+    display: flex
+    justify-content: space-around
+    align-items: end
+    @media (max-width: $mobilel)
+        width: 90%
+        height: 40%
+    div
+        height: 70%
+        width: 11%
+        border-top-left-radius: 5%
+        border-top-right-radius: 5%
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+            background-color: #3676bb
+        @media (max-width: $mobilel)
+            width: 14%
+    a
+        font-size: 60%
+        text-decoration: none
+        color: #efeff1
+
+.bgimg
+    width: 100%
+    height: 28vw
+    img
+        width: 100%
+        height: 100%
