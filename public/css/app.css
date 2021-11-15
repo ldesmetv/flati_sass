@@ -6572,6 +6572,91 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.social {
+  width: 100%;
+  height: 20vw;
+  background-color: #3676bb;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social h2 {
+  font-size: 110%;
+  margin-top: 0%;
+}
+
+.social p {
+  font-size: 80%;
+  width: 60%;
+}
+
+.social i {
+  font-size: 160%;
+}
+
+@media (max-width: 426px) {
+  .social {
+    height: 50vw;
+  }
+  .social p {
+    width: 90%;
+  }
+}
+
+.socialicone {
+  width: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+  color: #a8c4e2;
+}
+
+@media (max-width: 426px) {
+  .socialicone {
+    width: 50%;
+  }
+}
+
+.copyright {
+  width: 100%;
+  height: 5vw;
+  background-color: #363b47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 80%;
+  color: #8b8f9b;
+}
+
+@media (max-width: 426px) {
+  .copyright {
+    height: 8vw;
+  }
+}
+
 body {
   margin: 0%;
 }
