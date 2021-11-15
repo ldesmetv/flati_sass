@@ -6149,7 +6149,7 @@ readers do not read off random characters that represent icons */
   display: flex;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .head {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6177,7 +6177,7 @@ readers do not read off random characters that represent icons */
           align-items: center;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .flati {
     width: 100%;
     height: 60%;
@@ -6196,7 +6196,7 @@ readers do not read off random characters that represent icons */
           align-items: end;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .navbar {
     width: 90%;
     height: 40%;
@@ -6223,7 +6223,7 @@ readers do not read off random characters that represent icons */
   background-color: #3676bb;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .navbar div {
     width: 14%;
   }
@@ -6235,7 +6235,7 @@ readers do not read off random characters that represent icons */
   color: #efeff1;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .navbar a {
     font-size: 90%;
   }
@@ -6251,7 +6251,7 @@ readers do not read off random characters that represent icons */
   height: 100%;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .bgimg {
     height: 20vw;
   }
@@ -6279,19 +6279,19 @@ readers do not read off random characters that represent icons */
   width: 60%;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .buzz {
     font-size: 160%;
   }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 840px) and (min-width: 640px) {
   .buzz {
     height: 20vw;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .buzz {
     height: 50vw;
   }
@@ -6327,13 +6327,13 @@ readers do not read off random characters that represent icons */
           align-items: center;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 840px) and (min-width: 640px) {
   .cards {
     height: 35vw;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .cards {
     height: 250vw;
   }
@@ -6350,13 +6350,13 @@ readers do not read off random characters that represent icons */
           justify-content: space-between;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 840px) and (min-width: 640px) {
   .cardsrow {
     width: 90%;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .cardsrow {
     width: 75%;
     height: 90%;
@@ -6399,7 +6399,7 @@ readers do not read off random characters that represent icons */
   width: 80%;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .card {
     width: 100%;
     height: 22%;
@@ -6407,7 +6407,7 @@ readers do not read off random characters that represent icons */
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .card {
     font-size: 90%;
   }
@@ -6432,7 +6432,7 @@ readers do not read off random characters that represent icons */
   color: #3676bb;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .icone {
     height: 22%;
     width: 15%;
@@ -6454,13 +6454,13 @@ readers do not read off random characters that represent icons */
   padding-bottom: 5vw;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 840px) and (min-width: 640px) {
   .work {
     height: 30vw;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .work {
     height: 110vw;
   }
@@ -6477,13 +6477,13 @@ readers do not read off random characters that represent icons */
           justify-content: space-between;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 840px) and (min-width: 640px) {
   .workrow {
     width: 90%;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .workrow {
     height: 100%;
     display: inline;
@@ -6506,20 +6506,20 @@ readers do not read off random characters that represent icons */
           justify-content: center;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 840px) and (min-width: 640px) {
   .recentwork {
     font-size: 60%;
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .recentwork {
     width: 100%;
     height: 60%;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .recentwork {
     font-size: 90%;
   }
@@ -6535,7 +6535,7 @@ readers do not read off random characters that represent icons */
   border-radius: 10%;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .recentwork input {
     height: 20%;
   }
@@ -6558,7 +6558,7 @@ readers do not read off random characters that represent icons */
           align-items: center;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .portfolio {
     width: 100%;
     margin-top: 10%;
@@ -6587,7 +6587,7 @@ readers do not read off random characters that represent icons */
   font-size: 70%;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .card2 h2 {
     font-size: 60%;
   }
@@ -6596,7 +6596,7 @@ readers do not read off random characters that represent icons */
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .card2 {
     font-size: 130%;
   }
@@ -6637,7 +6637,7 @@ readers do not read off random characters that represent icons */
   font-size: 160%;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .social {
     height: 50vw;
   }
@@ -6646,7 +6646,7 @@ readers do not read off random characters that represent icons */
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1270px) {
   .social {
     font-size: 130%;
   }
@@ -6664,7 +6664,7 @@ readers do not read off random characters that represent icons */
   color: #a8c4e2;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .socialicone {
     width: 50%;
   }
@@ -6687,7 +6687,7 @@ readers do not read off random characters that represent icons */
   color: #8b8f9b;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 640px) {
   .copyright {
     height: 8vw;
   }
