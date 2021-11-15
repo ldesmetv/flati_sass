@@ -6235,6 +6235,12 @@ readers do not read off random characters that represent icons */
   color: #efeff1;
 }
 
+@media (min-width: 1440px) {
+  .navbar a {
+    font-size: 90%;
+  }
+}
+
 .bgimg {
   width: 100%;
   height: 28vw;
@@ -6243,6 +6249,12 @@ readers do not read off random characters that represent icons */
 .bgimg img {
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1440px) {
+  .bgimg {
+    height: 20vw;
+  }
 }
 
 .buzz {
@@ -6395,6 +6407,12 @@ readers do not read off random characters that represent icons */
   }
 }
 
+@media (min-width: 1440px) {
+  .card {
+    font-size: 90%;
+  }
+}
+
 .icone {
   width: 20%;
   height: 18%;
@@ -6501,6 +6519,12 @@ readers do not read off random characters that represent icons */
   }
 }
 
+@media (min-width: 1440px) {
+  .recentwork {
+    font-size: 90%;
+  }
+}
+
 .recentwork input {
   font-size: 70%;
   width: 25%;
@@ -6572,6 +6596,12 @@ readers do not read off random characters that represent icons */
   }
 }
 
+@media (min-width: 1440px) {
+  .card2 {
+    font-size: 130%;
+  }
+}
+
 .social {
   width: 100%;
   height: 20vw;
@@ -6613,6 +6643,12 @@ readers do not read off random characters that represent icons */
   }
   .social p {
     width: 90%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .social {
+    font-size: 130%;
   }
 }
 
